@@ -14,16 +14,13 @@ more details, see @soubhikbarari's instructions
 [here](https://github.com/soubhikbarari/MITPolMeth-PythonDataSci-02-2018/blob/master/setup.pdf),
 but making sure to install Python 3.
 
-Once Anaconda is installed, you'll need to install a couple packages that we'll
-need for web scraping. Download this repository, navigate to the directory from
-the command line, and run
+Anaconda should automatically have all of the needed packages pre-installed.
+Please verify that they are by:
 
-```
-pip install -r requirements.txt
-```
-
-which will install the needed packages automatically.
-
+1. downloading this repository (the button is on the upper right of the page)
+2. launching Jupyter using @soubhikbarari's instructions
+3. opening the `.ipynb` notebook 
+4. running each of the cells with `import` in them to verify the packages load
 
 ## Contents
 
