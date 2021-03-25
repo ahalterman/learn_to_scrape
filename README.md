@@ -1,29 +1,21 @@
 # Learn to scrape 
 
-Materials for MIT Methods Lab workshop on learning to scrape web pages
+Materials for MIT Political Methodology Lab workshop on learning to scrape with Python.
 
-## Preperation
+## Installing Python and setup
 
-We'll be using Python 3 for this workshop because it has much better support
-than 2 for different character encodings in text, which is something that comes
-up quite often in web scraping.
-Please install the Anaconda distribution of Python 3 and Jupyter notebook from
-the [Anaconda](https://www.anaconda.com/download/?lang=en-us#macos) site. For
-more details, see [@soubhikbarari](https://github.com/soubhikbarari/)'s instructions
-[here](https://github.com/soubhikbarari/MITPolMeth-PythonDataSci-02-2018/blob/master/setup.pdf),
-but making sure to install Python 3.
-
-Anaconda should automatically have all of the needed packages pre-installed.
-Please verify that they are by:
-
-1. downloading this repository (the button is on the upper right of the page)
-2. launching Jupyter using [@soubhikbarari](https://github.com/soubhikbarari/)'s instructions
-3. opening the `.ipynb` notebook 
-4. running each of the cells with `import` in them to verify the packages load
+1. Download the Anaconda distribution of Python 3 from
+the [Anaconda](https://www.anaconda.com/products/individual#Downloads) site and follow the installation instructions for your system. (Make sure you install Python 3). We'll use this distribution of Python because it comes with many of the standard scientific computing packages pre-installed.
+2. Launch Jupyter Notebook. You can do this in two ways:
+    - Open the newly installed "Anaconda Navigator" and launch Jupyter Notebook from there
+    - Open your command line and run `jupyter notebook`
+3. Once Jupyter is running, you'll be able to access Jupyter by opening your browser and going to http://localhost:8888/.
+4. Download this repository from Github and save it in a convenient location on your computer.
+5. Finally, from within Jupyter, browse to the location where you saved this repository in Step 4 and make sure you can open an `.ipynb` notebook.
 
 ## Contents
 
 `Scraper_Skeleton.ipynb` contains a skeleton of a web scraper and is what we'll
 be working through during the workshop.
 
-`Scraper_Completed.ipynb` is the "solutions" for `Scraper_Skeleton`.
+`Scraper_Completed.ipynb` contains the "solutions" for `Scraper_Skeleton`.
